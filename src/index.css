@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1 {
+  @apply text-2xl font-bold;
+}
+
+h2 {
+  @apply text-xl font-bold;
+}
+
+textarea {
+  @apply border;
+}
+
+.btn-primary {
+  @apply bg-blue-500 text-white hover:bg-blue-400 active:bg-blue-600 shadow px-8 py-1 rounded-md;
+}
+
+.btn-secondary {
+  @apply bg-gray-300 text-gray-900 hover:bg-gray-200 active:bg-gray-400 shadow px-8 py-1 rounded-md;
+}
+
+.btn-danger {
+  @apply bg-red-500 text-white hover:bg-red-400 active:bg-red-600 shadow px-8 py-1 rounded-md;
+}
